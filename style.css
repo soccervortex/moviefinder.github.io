@@ -1,0 +1,54 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    border: 1px solid #444; /* Dark border */
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #1e1e1e; /* Darker container background */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444; /* Dark border */
+    border-radius: 4px;
+    background-color: #2e2e2e; /* Dark input background */
+    color: #ffffff; /* Light text color */
+    font-size: 16px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #555; /* Highlight border on focus */
+}
+
+.results {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.movie {
+    background-color: #2e2e2e; /* Dark movie card background */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
